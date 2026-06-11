@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Зорин Михаил Алексеевич - Резюме</title>
+    <meta
+      name="description"
+      content="Резюме Зорина Михаила Алексеевича, студента УрФУ ИРИТ-РТФ по направлению Алгоритмы искусственного интеллекта."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти к основному содержанию</a>
+
+    <header class="site-header reveal" style="--reveal-delay: 50ms">
+      <div class="container header-shell">
+        <a class="brand" href="#hero">Михаил Зорин</a>
+        <nav class="site-nav" aria-label="Разделы страницы">
+          <a href="#about">Обо мне</a>
+          <a href="#skills">Навыки</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="hero" class="hero section reveal" style="--reveal-delay: 100ms">
+        <div class="container">
+          <div class="hero-card">
+            <p class="eyebrow">УрФУ им. Ельцина • ИРИТ-РТФ</p>
+            <h1>Зорин Михаил Алексеевич</h1>
+            <p class="lead">
+              Студент направления «Алгоритмы искусственного интеллекта». Сейчас на 2 курсе,
+              планируемый выпуск в 2028 году.
+            </p>
+            <div class="hero-facts" aria-label="Ключевая информация">
+              <span>ИИ-разработка и Python</span>
+              <span>Git и VS Code</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal" style="--reveal-delay: 130ms">
+        <div class="container two-column-layout">
+          <article class="panel">
+            <h2>Обо мне</h2>
+            <p>
+              Обучаюсь и прохожу практики в области искусственного интеллекта и прикладной разработки. 
+              Работаю с данными, моделями, ИИ-агентами и интеграцией LLM. 
+              Имею опыт преподавания программирования на Python для детей в IT-Кубе.
+            </p>
+          </article>
+          <article class="panel">
+            <h2>Образование</h2>
+            <ul class="detail-list">
+              <li><strong>Вуз:</strong> УрФУ им. Ельцина</li>
+              <li><strong>Институт:</strong> ИРИТ-РТФ</li>
+              <li><strong>Направление:</strong> Алгоритмы искусственного интеллекта</li>
+              <li><strong>Курс:</strong> 2</li>
+              <li><strong>Год окончания:</strong> 2028</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal" style="--reveal-delay: 160ms">
+        <div class="container">
+          <div class="section-head">
+            <h2>Навыки</h2>
+            <p>Ключевой стек, который я использую в учебных и командных проектах.</p>
+          </div>
+          <ul class="skills-grid" aria-label="Список навыков">
+            <li class="skill-item">Python</li>
+            <li class="skill-item">Предиктивные ИИ</li>
+            <li class="skill-item">Git</li>
+            <li class="skill-item">VS Code</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal" style="--reveal-delay: 190ms">
+        <div class="container">
+          <div class="section-head">
+            <h2>Проекты</h2>
+          </div>
+
+          <div class="project-groups">
+            <article class="project-group">
+              <h3>Проекты разработки и ИИ</h3>
+              <div class="project-stack" data-accordion>
+                <article class="project-card project-card--asmodeus">
+                  <h4 class="project-title-wrap">
+                    <button
+                      class="project-toggle"
+                      id="project-toggle-asmodeus"
+                      aria-expanded="false"
+                      aria-controls="project-panel-asmodeus"
+                    >
+                      <span class="project-heading">
+                        <span class="project-title"
+                          >Asmodeus
+                          <span class="project-title-period"
+                            >январь 2025 - июнь 2025</span
+                          ></span
+                        >
+                        <span class="project-subtitle"
+                          >ИИ-приложение для составления расписания обучения студентов
+                          ИРИТ-РТФ</span
+                        >
+                      </span>
+                      <span class="project-indicator" aria-hidden="true"></span>
+                    </button>
+                  </h4>
+                  <div
+                    class="project-panel"
+                    id="project-panel-asmodeus"
+                    role="region"
+                    aria-labelledby="project-toggle-asmodeus"
+                    aria-hidden="true"
+                  >
+                    <div class="project-panel-inner">
+                      <p>
+                        Asmodeus помогает формировать учебное расписание с применением ИИ.
+                        Интерфейс собирался на AsmoUI - библиотеке на PyGame для быстрой
+                        разработки пользовательского UI.
+                      </p>
+                      <p class="project-link-row">
+                        <strong>Ссылка на проект:</strong>
+                        <a
+                          class="project-link"
+                          href="https://github.com/Mail20060zma/Asmodeus"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >GitHub</a
+                        >
+                      </p>
+                      <ul class="project-shots" aria-label="Скриншоты проекта Asmodeus">
+                        <li>
+                          <img
+                            class="project-shot-image"
+                            src="assets/images/projects/Asmodeus/asmodeus-1.png"
+                            alt="Скриншот интерфейса проекта Asmodeus 1"
+                            loading="lazy"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            class="project-shot-image"
+                            src="assets/images/projects/Asmodeus/asmodeus-2.png"
+                            alt="Скриншот интерфейса проекта Asmodeus 2"
+                            loading="lazy"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project-card project-card--arium">
+                  <h4 class="project-title-wrap">
+                    <button
+                      class="project-toggle"
+                      id="project-toggle-arium"
+                      aria-expanded="false"
+                      aria-controls="project-panel-arium"
+                    >
+                      <span class="project-heading">
+                        <span class="project-title"
+                          >Arium
+                          <span class="project-title-period"
+                            >январь 2026 - настоящее время</span
+                          ></span
+                        >
+                        <span class="project-subtitle"
+                          >Агент для запуска ИИ и управления ПК</span
+                        >
+                      </span>
+                      <span class="project-indicator" aria-hidden="true"></span>
+                    </button>
+                  </h4>
+                  <div
+                    class="project-panel"
+                    id="project-panel-arium"
+                    role="region"
+                    aria-labelledby="project-toggle-arium"
+                    aria-hidden="true"
+                  >
+                    <div class="project-panel-inner">
+                      <p>
+                        Агент для запуска ИИ (локальных или API) для управления ПК.
+                        Поддерживает голосовой ввод, модель также может отвечать текстом.
+                        В данный момент находится в разработке.
+                      </p>
+                      <p class="project-link-row">
+                        <strong>Ссылка на проект:</strong>
+                        <a
+                          class="project-link"
+                          href="https://github.com/Mail20060zma/Arium"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >GitHub</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project-card project-card--ural-wisdom">
+                  <h4 class="project-title-wrap">
+                    <button
+                      class="project-toggle"
+                      id="project-toggle-ural-wisdom"
+                      aria-expanded="false"
+                      aria-controls="project-panel-ural-wisdom"
+                    >
+                      <span class="project-heading">
+                        <span class="project-title"
+                          >Ural Wisdom
+                          <span class="project-title-period">сентябрь 2024 - декабрь 2024</span></span
+                        >
+                        <span class="project-subtitle"
+                          >Платформа отзывов на достопримечательности Свердловской
+                          области</span
+                        >
+                      </span>
+                      <span class="project-indicator" aria-hidden="true"></span>
+                    </button>
+                  </h4>
+                  <div
+                    class="project-panel"
+                    id="project-panel-ural-wisdom"
+                    role="region"
+                    aria-labelledby="project-toggle-ural-wisdom"
+                    aria-hidden="true"
+                  >
+                    <div class="project-panel-inner">
+                      <p>
+                        Ural Wisdom - платформа для публикации и оценки отзывов о
+                        достопримечательностях. Встроенная RevA использует ИИ для оценки
+                        отзывов по полезности и информативности.
+                      </p>
+                      <p class="project-link-row">
+                        <strong>Ссылка на проект:</strong>
+                        <a
+                          class="project-link"
+                          href="https://github.com/Fortoshka/RevA-Ural-wisdom"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >GitHub (бот проекта)</a
+                        >
+                      </p>
+                      <ul class="project-shots" aria-label="Скриншоты проекта Ural Wisdom">
+                        <li>
+                          <img
+                            class="project-shot-image"
+                            src="assets/images/projects/Ural_Wisdom/ural-wisdom-1.png"
+                            alt="Скриншот интерфейса проекта Ural Wisdom 1"
+                            loading="lazy"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            class="project-shot-image"
+                            src="assets/images/projects/Ural_Wisdom/ural-wisdom-2.png"
+                            alt="Скриншот интерфейса проекта Ural Wisdom 2"
+                            loading="lazy"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project-card project-card--synedrion">
+                  <h4 class="project-title-wrap">
+                    <button
+                      class="project-toggle"
+                      id="project-toggle-synedrion"
+                      aria-expanded="false"
+                      aria-controls="project-panel-synedrion"
+                    >
+                      <span class="project-heading">
+                        <span class="project-title"
+                          >Synedrion
+                          <span class="project-title-period">июль 2025 - декабрь 2025</span></span
+                        >
+                        <span class="project-subtitle"
+                          >WebView-приложение для работы с API ИИ-моделей с
+                          HuggingFace</span
+                        >
+                      </span>
+                      <span class="project-indicator" aria-hidden="true"></span>
+                    </button>
+                  </h4>
+                  <div
+                    class="project-panel"
+                    id="project-panel-synedrion"
+                    role="region"
+                    aria-labelledby="project-toggle-synedrion"
+                    aria-hidden="true"
+                  >
+                    <div class="project-panel-inner">
+                      <p>
+                        Synedrion поддерживает одиночные чаты с кастомными системными
+                        промптами и групповые чаты с возможностью объединять сразу
+                        несколько моделей.
+                      </p>
+                      <p class="project-link-row">
+                        <strong>Ссылка на проект:</strong>
+                        <a
+                          class="project-link"
+                          href="https://github.com/Fortoshka/Synedrion"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >GitHub</a
+                        >
+                      </p>
+                      <ul class="project-shots" aria-label="Скриншоты проекта Synedrion">
+                        <li>
+                          <img
+                            class="project-shot-image"
+                            src="assets/images/projects/Synedrion/synedrion-1.png"
+                            alt="Скриншот интерфейса проекта Synedrion 1"
+                            loading="lazy"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            class="project-shot-image"
+                            src="assets/images/projects/Synedrion/synedrion-2.png"
+                            alt="Скриншот интерфейса проекта Synedrion 2"
+                            loading="lazy"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="site-footer reveal" style="--reveal-delay: 220ms">
+      <div class="container">
+        <div class="section-head">
+          <h2>Контактная информация</h2>
+        </div>
+        <ul class="contacts-grid" aria-label="Контакты">
+          <li class="contact-card">
+            <span class="contact-label">Почта</span>
+            <a href="mailto:zma20060@gmail.com">zma20060@gmail.com</a>
+          </li>
+          <li class="contact-card">
+            <span class="contact-label">Телефон</span>
+            <a href="tel:+79193633963">+7 (919) 363-39-63</a>
+          </li>
+          <li class="contact-card">
+            <span class="contact-label">GitHub</span>
+            <a
+              href="https://github.com/Mail20060zma"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github.com/Mail20060zma</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
